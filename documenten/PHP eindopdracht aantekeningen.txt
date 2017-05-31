@@ -1,0 +1,7 @@
+Database bouwen:
+
+database naam
+
+Forum
+
+tabel maken met 7 kolommen 
