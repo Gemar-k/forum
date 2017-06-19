@@ -1,0 +1,87 @@
+/* dit is de basis voor de webpagina geen overflow over de x as en geen padding en margin op html tags */
+body{
+    overflow-x: hidden;
+    padding: 0%;
+    margin: 0%;
+    font-family: witcher3font;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* hier staan alle custom fonts die zijn gebruikt */
+
+@font-face {
+    font-family: witcher3font;
+    src: url("../fonts/witcher3tekst.ttf");
+}
+/* hier begint de css van de webpagina zelf */
+.section1{
+    background: center url("../img/witcher3_logo_forum.png") no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #ee2132;
+}
+
+::selection{
+    color: #ee2132;
+}
+
+.middensectie{
+    padding: 20px;
+}
+
+.panel,.panel-body,.panel-footer,.panel-heading{
+    background: rgba(251, 252, 255, 0.6);
+}
+/* dit stuk heeft temaken met de thema sectie en de recent topic sectie */
+.themaheader,.recentheader{
+    font-family: witcher3font;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+.thema,.recenttopic{
+    font-family: witcher3font;
+    height: 40px;
+    padding: 2px;
+    margin-top: 2px;
+}
+/* -------------------------------------------------------*/
+
+/* hier begin de stylesheet van de login pagina */
+
+.loginsectie{
+    background: rgba(251, 252, 255, 0.6);
+    border-radius: 10px;
+}
+
+.loginbutton{
+    border: 1px solid black;
+    color: #0f0f0f;
+    background: rgba(233, 229, 233, 0);
+}
+
+.loginbutton:hover{
+    color: #ee2132;
+    border-color: #ee2132;
+}
+
+.form-group{
+    padding: 2%;
+}
+
+.passwordforgot{
+    color: black;
+}
+/*----------------------------------------------------------*/
+
+/* hier begint de stylesheet van de registerpagina */
+
