@@ -50,9 +50,13 @@ a:hover{
 
 .thema,.recenttopic{
     font-family: witcher3font;
-    height: 40px;
+    height: 50px;
     padding: 2px;
     margin-top: 2px;
+}
+
+.themelink{
+    color: black;
 }
 /* -------------------------------------------------------*/
 

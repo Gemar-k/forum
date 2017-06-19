@@ -1,35 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>PDO Forum</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
 <body>
 <section class="section1">
-    <?php include_once 'app/templates/header.php';?>
+    <?php
+    include_once 'app/templates/header.php';
+    include 'app/handlers/themahandler.php';
+    include 'app/templates/top.php';?>
     <section class="middensectie">
     <div class="row">
         <div class="col-md-8">
             <div class="panel">
                 <div class="panel-heading themaheader">Thema's</div>
                 <div class="panel-body">
-                    <div class="thema"><a href="topic.html">Hi dit moet een thema voorstellen</a></div>
-                    <div class="thema"><a href="topic.html">Hi dit is nog een thema</a></div>
+                    <?php if ($themes->rowCount() > 0) {
+                        $rows = $themes->fetchAll();
+                        foreach ($rows as $row) {
+                            $id = $row['id'];
+                            echo '<tr>';
+                            echo '<div class="thema">';
+                            echo '<div class="row">';
+                            echo '<td class="col-md-6"><a class="themelink" href="theme.php?id='.$id.'">'.$row['subject'].'</td></a><br>';
+                            echo '<td class="col-md-6">'.$row['description'].'</td>';
+                            echo '<td class="col-md-6">'.$row['created_at'].'</td>';
+                            echo '<td class="col-md-6">'.$row['username'].'</td>';
+                            echo '</tr>';
+                            echo '</div>';
+                            echo '</div>';
+                        }
+                    }
+                    ?>
                 </div>
             </div>
         </div>
