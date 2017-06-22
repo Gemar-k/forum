@@ -11,24 +11,25 @@
         <div class="col-md-8">
             <div class="panel">
                 <div class="panel-heading themaheader">Thema's</div>
-                <div class="panel-body">
-                    <?php if ($themes->rowCount() > 0) {
-                        $rows = $themes->fetchAll();
-                        foreach ($rows as $row) {
-                            $id = $row['id'];
-                            echo '<tr>';
-                            echo '<div class="thema">';
-                            echo '<div class="row">';
-                            echo '<td class="col-md-6"><a class="themelink" href="theme.php?id='.$id.'">'.$row['subject'].'</td></a><br>';
-                            echo '<td class="col-md-6">'.$row['description'].'</td>';
-                            echo '<td class="col-md-6">'.$row['created_at'].'</td>';
-                            echo '<td class="col-md-6">'.$row['username'].'</td>';
-                            echo '</tr>';
-                            echo '</div>';
-                            echo '</div>';
-                        }
-                    }
-                    ?>
+                <div class="panel-body table-responsive">
+                    <table class="table">
+                        <thead>
+                        <?php while( $row = $themes->fetch()) : ?>
+                        <tr>
+                            <th><?php echo '<a class="themelink" href="">'.$row['subject'].'</a>'?></th>
+                            <th>Date</th>
+                            <th>Username</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><?php echo $row['description']; ?></td>
+                                <td><?php echo $row['created_at']; ?></td>
+                                <td><?php echo $row['username']; ?></td>
+                            </tr>
+                        <?php endwhile ?>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
