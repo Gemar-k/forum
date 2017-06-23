@@ -16,7 +16,7 @@
                         <thead>
                         <?php while( $row = $themes->fetch()) : ?>
                         <tr>
-                            <th><?php echo '<a class="themelink" href="">'.$row['subject'].'</a>'?></th>
+                            <th><?php echo '<a class="themelink" href="topic.php?themaid='.$row[0].'">'.$row['subject'].'</a>'?></th>
                             <th>Date</th>
                             <th>Username</th>
                         </tr>
