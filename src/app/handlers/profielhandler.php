@@ -1,6 +1,5 @@
 <?php
 include 'connectionhandler.php';
-include 'loginhandler.php';
 
 $username = $_SESSION['username'];
 

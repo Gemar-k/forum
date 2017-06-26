@@ -10,7 +10,14 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel">
-                    <div class="panel-heading themaheader">Topics</div>
+                    <div class="panel-heading themaheader">
+                        <div class="row">
+                            <div class="col-md-1">Topics</div>
+                            <div class="col-md-1 col-md-offset-10">
+                                <?= $newtopicbutton ?>
+                            </div>
+                        </div>
+                    </div>
                     <div class="panel-body table-responsive">
                         <table class="table">
                             <thead>

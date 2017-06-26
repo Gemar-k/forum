@@ -1,8 +1,10 @@
 <?php
 include 'loginhandler.php';
 include 'logouthandler.php';
+include 'topichandler.php';
 
 $navbarbutton = NULL;
+$newtopicbutton = NULL;
 
 if (isset($_SESSION['username'])){
     $navbarbutton = '<li class="dropdown">
@@ -13,6 +15,7 @@ if (isset($_SESSION['username'])){
           <li><form method="post"><button type="submit" name="logout">Logout</button></form></li>
         </ul>
       </li>';
+    $newtopicbutton = '<a class="newtopic btn btn-default" href="newtopic.php?themaid='.$id.'">New Topic</a>';
 }else{
     $navbarbutton = '<li><a href="login.php">Login</a></li>';
 }
