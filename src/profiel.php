@@ -4,7 +4,8 @@
 <section class="section1">
     <?php include_once 'app/templates/header.php';
     include 'app/handlers/profielhandler.php';
-    include 'app/templates/top.php'?>
+    include 'app/templates/top.php';
+    include 'app/handlers/userblocker.php'?>
     <section class="middensectie">
         <div class="row">
             <div class="loginsectie col-md-4 col-md-offset-4">

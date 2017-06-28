@@ -5,12 +5,20 @@
     <?php
     include_once 'app/templates/header.php';
     include 'app/handlers/themahandler.php';
-    include 'app/templates/top.php';?>
+    include 'app/templates/top.php';
+    include 'app/handlers/adminhandler.php'?>
     <section class="middensectie">
     <div class="row">
         <div class="col-md-8">
             <div class="panel">
-                <div class="panel-heading themaheader">Thema's</div>
+                <div class="panel-heading themaheader">
+                    <div class="row">
+                        <div class="col-md-1">Theme's</div>
+                        <div class="col-md-1 col-md-offset-9">
+                            <?= $newthemebutton ?>
+                        </div>
+                    </div>
+                </div>
                 <div class="panel-body table-responsive">
                     <table class="table">
                         <thead>

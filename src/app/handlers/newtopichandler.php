@@ -3,7 +3,6 @@ include 'connectionhandler.php';
 include 'profielhandler.php';
 include 'topichandler.php';
 
-$userid = $userprofiel_data[0][0];
 $newtopicmessage = NULL;
 $themaid = $_GET['themaid'];
 
