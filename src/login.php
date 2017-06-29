@@ -3,7 +3,6 @@
 <body>
 <section class="section1">
     <?php include_once 'app/templates/header.php';
-    include 'app/handlers/loginhandler.php';
     include 'app/templates/top.php'?>
     <section class="middensectie">
         <div class="row">

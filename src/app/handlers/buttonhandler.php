@@ -17,8 +17,14 @@ if (isset($_SESSION['username'])){
           <li><form method="post"><button type="submit" name="logout">Logout</button></form></li>
         </ul>
       </li>';
-    $newtopicbutton = '<a class="newtopic btn btn-default" href="newtopic.php?themaid='.$id.'">New Topic</a>';
-    $newreplybutton = '<a class="newreply btn btn-default" href="newreply.php?topicid='.$topic_id.'">New Reply</a>';
+
+    if (isset($id)){
+        $newtopicbutton = '<a class="newtopic btn btn-default" href="newtopic.php?themaid='.$id.'">New Topic</a>';
+    }
+
+    if (isset($topic_id)){
+        $newreplybutton = '<a class="newreply btn btn-default" href="newreply.php?topicid='.$topic_id.'">New Reply</a>';
+    }
 }else{
     $navbarbutton = '<li><a href="login.php">Login</a></li>';
 }
