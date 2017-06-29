@@ -21,13 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="26" column="107" selection-start-line="26" selection-start-column="107" selection-end-line="26" selection-end-column="107" />
+            <state relative-caret-position="450">
+              <caret line="52" column="97" selection-start-line="52" selection-start-column="97" selection-end-line="52" selection-end-column="97" />
               <folding>
-                <marker date="1498665112056" expanded="true" signature="1262:1264" ph="..." />
+                <marker date="1498751782412" expanded="true" signature="1313:1315" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="replieshandler.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/handlers/replieshandler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding>
+                <marker date="1498752035614" expanded="true" signature="136:286" ph="SELECT * FRO... replies" />
               </folding>
             </state>
           </provider>
@@ -51,21 +63,22 @@
         <option value="$PROJECT_DIR$/app/handlers/newtopichandler.php" />
         <option value="$PROJECT_DIR$/app/handlers/profielhandler.php" />
         <option value="$PROJECT_DIR$/app/handlers/adminhandler.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/app/handlers/userblocker.php" />
         <option value="$PROJECT_DIR$/newtopic.php" />
         <option value="$PROJECT_DIR$/profiel.php" />
         <option value="$PROJECT_DIR$/newtheme.php" />
         <option value="$PROJECT_DIR$/app/handlers/newthemehandler.php" />
-        <option value="$PROJECT_DIR$/topic.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/app/handlers/replieshandler.php" />
         <option value="$PROJECT_DIR$/app/handlers/buttonhandler.php" />
         <option value="$PROJECT_DIR$/newreply.php" />
         <option value="$PROJECT_DIR$/app/handlers/newreplyhandler.php" />
         <option value="$PROJECT_DIR$/replies.php" />
-        <option value="$PROJECT_DIR$/app/handlers/topichandler.php" />
         <option value="$PROJECT_DIR$/app/handlers/themahandler.php" />
+        <option value="$PROJECT_DIR$/topic.php" />
+        <option value="$PROJECT_DIR$/app/handlers/topichandler.php" />
+        <option value="$PROJECT_DIR$/app/handlers/recenttopichandler.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/handlers/replieshandler.php" />
       </list>
     </option>
   </component>
@@ -107,6 +120,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,8 +178,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,11 +284,12 @@
       <workItem from="1498716111499" duration="2513000" />
       <workItem from="1498718651212" duration="9000" />
       <workItem from="1498744647856" duration="2844000" />
+      <workItem from="1498749897078" duration="2281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63275000" />
+    <option name="totallyTimeSpent" value="65556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -335,13 +349,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/handlers/loginhandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -368,7 +375,7 @@
         <state relative-caret-position="528">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding>
-            <marker date="1498665112056" expanded="true" signature="1262:1264" ph="..." />
+            <marker date="1498751782412" expanded="true" signature="1313:1315" ph="..." />
           </folding>
         </state>
       </provider>
@@ -413,7 +420,7 @@
         <state relative-caret-position="528">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding>
-            <marker date="1498665112056" expanded="true" signature="1262:1264" ph="..." />
+            <marker date="1498751782412" expanded="true" signature="1313:1315" ph="..." />
           </folding>
         </state>
       </provider>
@@ -458,7 +465,7 @@
         <state relative-caret-position="506">
           <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
-            <marker date="1498665112056" expanded="true" signature="1262:1264" ph="..." />
+            <marker date="1498751782412" expanded="true" signature="1313:1315" ph="..." />
           </folding>
         </state>
       </provider>
@@ -482,7 +489,7 @@
         <state relative-caret-position="506">
           <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
-            <marker date="1498665112056" expanded="true" signature="1262:1264" ph="..." />
+            <marker date="1498751782412" expanded="true" signature="1313:1315" ph="..." />
           </folding>
         </state>
       </provider>
@@ -499,7 +506,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498665112056" expanded="true" signature="1262:1264" ph="..." />
+            <marker date="1498751782412" expanded="true" signature="1313:1315" ph="..." />
           </folding>
         </state>
       </provider>
@@ -653,39 +660,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/handlers/replieshandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <marker date="1498745292198" expanded="true" signature="98:248" ph="SELECT * FRO... replies" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/replies.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="92" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/handlers/topichandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <marker date="1498718073113" expanded="true" signature="129:277" ph="SELECT * FRO... topics" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,6 +692,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/handlers/topichandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <marker date="1498750598115" expanded="true" signature="129:277" ph="SELECT * FRO... topics" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/handlers/recenttopichandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="86" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="86" />
+          <folding>
+            <marker date="1498751408961" expanded="true" signature="71:126" ph="SELECT * FRO... topics" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/handlers/themahandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -723,20 +738,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="52" column="97" selection-start-line="52" selection-start-column="97" selection-end-line="52" selection-end-column="97" />
+          <folding>
+            <marker date="1498751782412" expanded="true" signature="1313:1315" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/app/handlers/replieshandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="26" column="107" selection-start-line="26" selection-start-column="107" selection-end-line="26" selection-end-column="107" />
+        <state relative-caret-position="286">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding>
-            <marker date="1498665112056" expanded="true" signature="1262:1264" ph="..." />
+            <marker date="1498752035614" expanded="true" signature="136:286" ph="SELECT * FRO... replies" />
           </folding>
         </state>
       </provider>

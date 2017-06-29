@@ -12,7 +12,6 @@ WHERE topics.theme_id = :id');
     $topics->execute([
         'id' => $id
     ]);
-
 }
 
 
