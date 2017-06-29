@@ -4,34 +4,34 @@
 <section class="section1">
     <?php
     include_once 'app/templates/header.php';
-    include 'app/handlers/topichandler.php';
-    include 'app/templates/top.php';?>
+    include 'app/templates/top.php';
+    include 'app/handlers/replieshandler.php'?>
     <section class="middensectie">
         <div class="row">
             <div class="col-md-12">
                 <div class="panel">
                     <div class="panel-heading themaheader">
                         <div class="row">
-                            <div class="col-md-1">Topics</div>
+                            <div class="col-md-1">Replies</div>
                             <div class="col-md-1 col-md-offset-10">
-                                <?= $newtopicbutton ?>
+                                <?= $newreplybutton ?>
                             </div>
                         </div>
                     </div>
                     <div class="panel-body table-responsive">
                         <table class="table">
                             <thead>
-                            <?php while( $row = $topics->fetch()) : ?>
+                            <?php while( $row = $replies->fetch()) : ?>
                             <tr>
-                                <th><?php echo '<a class="themelink" href="replies.php?topicid='.$row[0].'">'.$row[1].'</a>'?></th>
+                                <th><?php echo $row['content']; ?></th>
                                 <th>Date</th>
                                 <th>Username</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
+                                <td></td>
                                 <td><?php echo $row[2]; ?></td>
-                                <td><?php echo $row[3]; ?></td>
                                 <td><?php echo $row['username']; ?></td>
                             </tr>
                             <?php endwhile ?>
